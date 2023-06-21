@@ -1,0 +1,20 @@
+{
+  "name": "frontend-guide",
+  "version": "1.0.0",
+  "description": "Installation Coding Guidelines For Front-End Developers.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@47.114.151.26:common/frontend-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.25",
+    "vuepress": "^2.0.0-beta.25"
+  }
+}
